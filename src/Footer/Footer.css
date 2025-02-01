@@ -1,0 +1,32 @@
+/* Configurações do footer (rodapé) */
+footer {
+    background: linear-gradient(118deg, rgba(202,19,234,1) 0%, rgba(163,99,255,1) 63%, rgba(33,161,246,1) 100%);
+    width: 98vw;
+    position: fixed;
+    bottom: 0; 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Estiliza o botão de inscrição no rodapé */
+.inscreva__button{
+    padding: 10px;
+    /*background-color: var(--color-branco);*/
+    color: var(--color-preto);
+    border: 1px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+footer span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+.footer-text{color: var(--color-branco); font-family: var(--font-dm-sans); padding: 4px; flex-shrink: 0;}
+.text-inscreva{padding-top: 8px; font-weight: 500; font-family: var(--font-dm-sans);}
+.text{font-weight: 700;}

@@ -1,0 +1,7 @@
+body{background-color: palegreen;}
+.main-container {
+    max-width: 80vw; /* Usa 80% da largura da tela */
+    height: 100vh; /* Altura total da viewport */
+    margin-left: 320px; /* Define margem à esquerda */
+    margin-right: 56px; /* Define margem à direita */
+  }
