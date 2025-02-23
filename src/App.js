@@ -14,14 +14,7 @@ function App() {
       <Footer/>
     </>
     );
-    ReactDOM.render(
-      <React.StrictMode>
-        <HashRouter>
-          <App />
-        </HashRouter>
-      </React.StrictMode>,
-      document.getElementById('root')
-    );
 }
+
 
 export default App;
